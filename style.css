@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'https://fonts.google.com/specimen/Playfair+Display+SC?lang=ru_Cyrl'; 
+    background-color: hsla(351, 8%, 84%, 0.89);
+    margin: 0;
+}
+.photo {
+    object-fit: cover;
+}
+    .photo {
+        filter: grayscale(1);
+      }
+      
+      .photo:hover {
+        filter: none;
+      }
+      .photo 
+        {
+            display: inline-block;
+            border-radius: 50%;
+            overflow: hidden;
+            width: 140px;
+            height: 140px;
+          }
+          .photo img{
+            width:100%;
+            height:100%;
+            object-fit: cover;
+      }
+      .me {
+        position: fixed;
+        top: 55px;
+        left: 180px;
+      }
+.experience {
+    position: fixed;
+    top: 140px;
+    left: 5px;
+    background-color: #FF8630;
+    padding: 55px 40px;
+}
+.about {
+    position: fixed;
+    top: 230px;
+    left: 450px;
+    background-color: #37bd80;
+    padding: 55px 40px; 
+}
+.tg {
+    width: 150px;
+    height: 180px;  
+}
